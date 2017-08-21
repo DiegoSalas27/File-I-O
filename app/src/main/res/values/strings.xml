@@ -8,4 +8,7 @@
     <string name="error_escritura">Hubo un error en la escritura del archivo</string>
     <string name="leer_archivo">Leer archivo</string>
     <string name="error_lectura">Error de lectura</string>
+    <string name="hint_correo">correo</string>
+    <string name="guardarpreferencia">guardar preferencia</string>
+    <string name="mostrar_preferencia">Mostrar preferencia</string>
 </resources>
