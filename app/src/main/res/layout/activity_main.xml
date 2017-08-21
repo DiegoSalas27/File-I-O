@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.android.memoria.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_below="@id/tvTitulo"
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nombre"/>
+    <Button
+        android:layout_below="@id/etNombre"
+        android:id="@+id/btnGuardarArhivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_archivo"
+        android:onClick="generarArchivo"/>
+    <Button
+        android:layout_below="@id/btnGuardarArhivo"
+        android:id="@+id/btnLeerArhivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leer_archivo"
+        android:onClick="leerArchivo"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text=""
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Memoria</string>
+    <string name="titulo">Manejo Memoria</string>
+    <string name="hint_nombre">nombre</string>
+    <string name="guardar_archivo">guardar archivo</string>
+    <string name="mensaje">El archivo se ha creado</string>
+    <string name="nombre_archivo">MiArchivo.txt</string>
+    <string name="error_escritura">Hubo un error en la escritura del archivo</string>
+    <string name="leer_archivo">Leer archivo</string>
+    <string name="error_lectura">Error de lectura</string>
+</resources>
